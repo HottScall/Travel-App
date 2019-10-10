@@ -1,0 +1,8 @@
+
+<h1><%= @tag.title %></h1>
+
+    <% @destinations.each do |d| %>
+    <img src="<%= d.image %>">
+    <p><%= d.name %></p>
+    <p><%= d.description %></p>
+    <% end %>
